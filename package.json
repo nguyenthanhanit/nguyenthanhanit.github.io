@@ -1,0 +1,22 @@
+{
+  "name": "nguyenthanhan",
+  "version": "1.0.0",
+  "description": "nguyen thanh an blog",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog"
+  },
+  "keywords": [
+    "nguyenthanhan",
+    "blog"
+  ],
+  "author": "Nguyen Thanh An",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss": "^8.2.7",
+    "tailwindcss": "^2.0.3",
+    "vuepress": "^1.8.2"
+  }
+}
