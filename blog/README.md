@@ -20,4 +20,5 @@ hobbies:
   detail: đưa nhau đi trốn
   image: /map.svg
 ---
-- Xin chào! Mình tên là An, một web developer đang làm việc và sinh sống ở Sài Gòn.
+# Hello!
+- Mình là An, một web developer đang sống và làm việc giữa Sài Gòn hoa lệ.
