@@ -2,10 +2,10 @@
   <aside class="text-center">
     <header>
       <RouterLink to="/">
-        <h1 class="font-mono font-bold md:text-4xl text-xl">Nguyen Thanh An</h1>
+        <h1 class="font-mono font-bold text-4xl">Nguyen Thanh An</h1>
       </RouterLink>
     </header>
-    <div class="contact mt-6 space-x-2 mb-2">
+    <div class="contact mt-2 md:mt-6 space-x-2 mb-2">
       <a v-for="item in $site.themeConfig.social" :href="item.link">
         <i :class="'fab fa-' + item.type"></i>
       </a>
