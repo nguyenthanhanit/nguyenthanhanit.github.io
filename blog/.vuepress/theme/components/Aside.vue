@@ -2,7 +2,7 @@
   <aside class="text-center">
     <header>
       <RouterLink to="/">
-        <h1 class="font-mono font-bold text-4xl">Nguyen Thanh An</h1>
+        <span class="font-bold text-4xl">Nguyen Thanh An</span>
       </RouterLink>
     </header>
     <div class="contact mt-2 md:mt-6 space-x-2 mb-2">

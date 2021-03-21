@@ -8,6 +8,12 @@ module.exports = {
             require('autoprefixer'),
         ]
     },
+    markdown: {
+        anchor: {
+            permalinkSymbol: "&#128279;",
+            permalinkBefore: 'false',
+        }
+    },
     head: [
         ['script', {src: 'https://kit.fontawesome.com/5935fb99c9.js', crossorigin: 'anonymous'}]
     ],

@@ -1,5 +1,21 @@
 @tailwind base;
-
 @tailwind components;
-
 @tailwind utilities;
+
+html {
+  @apply font-mono;
+}
+// Custom base style
+h1 {
+  &:focus a.header-anchor,
+  &:hover a.header-anchor {
+    @apply opacity-100;
+  }
+}
+h1 {
+  @apply text-3xl;
+}
+a.header-anchor {
+  @apply opacity-0;
+  @apply text-base;
+}
