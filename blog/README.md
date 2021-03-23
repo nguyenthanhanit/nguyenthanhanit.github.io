@@ -11,7 +11,7 @@ hobbies:
   detail: bé khỏe bé ngoan
   image: /running.svg
 - title: Guitar
-  detail: ôm đàn thích như ôm gái
+  detail: thích như ôm gái
   image: /guitar.svg
 - title: Acoustic
   detail: simple is the best
@@ -21,4 +21,4 @@ hobbies:
   image: /map.svg
 ---
 # Hello!
-- Mình là An, một web developer đang sống và làm việc giữa Sài Gòn hoa lệ.
+Mình là An, một web developer đang sống và làm việc giữa Sài Gòn hoa lệ.
