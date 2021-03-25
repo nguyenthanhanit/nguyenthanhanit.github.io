@@ -1,6 +1,6 @@
 <template>
   <li>
-    <RouterLink :to="href" :class="['hover:bg-gray-50 px-3 py-2 rounded-md text-sm font-medium', { 'bg-gray-50': isActive }]">
+    <RouterLink :to="href" :class="['hover:bg-gray-50 px-3 py-2 rounded-md font-medium', { 'bg-gray-50': isActive }]">
       <slot></slot>
     </RouterLink>
   </li>
