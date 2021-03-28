@@ -25,7 +25,6 @@ module.exports = {
             {type: 'facebook', link: 'https://www.facebook.com/annguyen.81/'},
             {type: 'instagram', link: 'https://www.instagram.com/nguyenthanhan1996'},
             {type: 'twitter', link: 'https://twitter.com/NTAn8196'},
-            {type: 'strava', link: 'https://www.strava.com/athletes/nguyenthanhan'},
         ]
     }
 }

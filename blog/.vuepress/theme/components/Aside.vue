@@ -1,5 +1,5 @@
 <template>
-  <aside class="text-center">
+  <aside class="text-center border-b-2 md:border-b-0 md:border-r-2 border-fuchsia-600">
     <header>
       <RouterLink to="/">
         <span class="font-bold text-3xl">Nguyen Thanh An</span>
@@ -29,6 +29,13 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="stylus">
+.fa-facebook
+  color #4267B2;
 
+.fa-twitter
+  color #1DA1F2;
+
+.fa-instagram
+  color #E1306C;
 </style>

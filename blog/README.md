@@ -8,4 +8,4 @@ Mình là An, một web developer đang sống và làm việc giữa Sài Gòn 
 - Đá bóng :soccer: người chơi hệ mộc
 - Chạy bộ :running_man: bé khỏe bé ngoan
 - Guitar :guitar: thích như ôm gái
-- Du lịch :blue_car: đưa nhau đi trốn
+- Du lịch :earth_asia: đưa nhau đi trốn

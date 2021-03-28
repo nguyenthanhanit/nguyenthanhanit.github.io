@@ -2,23 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
+html
   @apply font-mono;
   @apply text-lg;
-}
+
 // Custom base style
-h1 {
+h1
   @apply flex;
   @apply items-center;
+  @apply mt-3;
+
   &:focus a.header-anchor,
-  &:hover a.header-anchor {
+  &:hover a.header-anchor
     @apply opacity-100;
-  }
-}
-h1 {
+
+h1
   @apply text-2xl;
-}
-a.header-anchor {
+
+a.header-anchor
   @apply opacity-0;
   @apply text-base;
-}
+
+h1:first-of-type
+  @apply m-0;
