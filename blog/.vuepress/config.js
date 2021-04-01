@@ -10,7 +10,7 @@ module.exports = {
     },
     markdown: {
         anchor: {
-            permalinkSymbol: "&#128279;",
+            permalinkSymbol: '<i class="fas fa-link"></i>',
             permalinkBefore: 'false',
         }
     },
@@ -18,9 +18,6 @@ module.exports = {
         ['script', {src: 'https://kit.fontawesome.com/5935fb99c9.js', crossorigin: 'anonymous'}]
     ],
     themeConfig: {
-        nav: [
-            {text: 'blog', link: '/post/'},
-        ],
         social: [
             {type: 'facebook', link: 'https://www.facebook.com/annguyen.81/'},
             {type: 'instagram', link: 'https://www.instagram.com/nguyenthanhan1996'},
