@@ -1,31 +1,34 @@
 <template>
-  <aside class="text-center border-b-2 md:border-b-0 md:border-r-2 border-fuchsia-600">
-    <header>
-      <RouterLink to="/">
-        <span class="font-bold text-3xl">Nguyen Thanh An</span>
-      </RouterLink>
-    </header>
-    <div class="contact mt-2 md:mt-6 space-x-2 mb-2">
-      <a v-for="item in $site.themeConfig.social" :href="item.link">
+  <aside class="text-center">
+    <div class="bg-bottom bg-cover bg-no-repeat h-72 rounded-3xl"
+         :style="{'background-image': 'url(' + $withBase($site.themeConfig.host.avatar) + ')'}"></div>
+    <div class="mt-2">
+      <span class="font-bold text-xl">{{ $site.themeConfig.host.name }}</span>
+    </div>
+    <div class="rounded-3xl py-1 px-1 bg-gray-100 w-3/4 2xl:w-1/2 m-auto text-xs">{{ $site.themeConfig.host.title }}</div>
+    <div class="contact mt-2 space-x-2 mb-2">
+      <a v-for="item in $site.themeConfig.host.social" :href="item.link">
         <i :class="'fab fa-' + item.type"></i>
       </a>
     </div>
-    <Nav>
-      <NavItem v-for="item in $site.themeConfig.nav" :href="item.link">{{ item.text }}</NavItem>
-    </Nav>
+    <div class="text-xs text-left w-3/4 2xl:w-7/12 m-auto">
+      <span class="inline-block">
+        <i class="fas fa-home"></i> {{ $site.themeConfig.host.address }}
+      </span>
+      <span class="inline-block">
+        <a :href="'mailto:' + $site.themeConfig.host.email">
+          <i class="far fa-envelope"></i> {{ $site.themeConfig.host.email }}
+        </a>
+      </span>
+    </div>
   </aside>
 </template>
 
 <script>
-import Nav from "./Nav";
-import NavItem from "./NavItem";
 
 export default {
   name: "Aside",
-  components: {
-    Nav,
-    NavItem,
-  },
+  components: {},
 }
 </script>
 
@@ -38,4 +41,7 @@ export default {
 
 .fa-instagram
   color #E1306C;
+
+.fa-linkedin
+  color #2867B2;
 </style>

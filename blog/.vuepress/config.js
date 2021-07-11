@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'Nguyen Thanh An',
+    title: 'Nguyen Thanh An - Software Engineer | A Saigonese',
     description: 'Nhà của An',
     dest: 'docs',
     postcss: {
@@ -18,10 +18,22 @@ module.exports = {
         ['script', {src: 'https://kit.fontawesome.com/5935fb99c9.js', crossorigin: 'anonymous'}]
     ],
     themeConfig: {
-        social: [
-            {type: 'facebook', link: 'https://www.facebook.com/annguyen.81/'},
-            {type: 'instagram', link: 'https://www.instagram.com/nguyenthanhan1996'},
-            {type: 'twitter', link: 'https://twitter.com/NTAn8196'},
-        ]
+        host: {
+            name: 'Nguyen Thanh An',
+            title: 'Software Engineer',
+            avatar: '/images/avatar.jpeg',
+            email: 'nguyenan8196@gmail.com',
+            address: 'Sai Gon, Vietnam',
+            social: [
+                {type: 'facebook', link: 'https://www.facebook.com/annguyen.81/'},
+                {type: 'instagram', link: 'https://www.instagram.com/nguyenthanhan1996'},
+                {type: 'twitter', link: 'https://twitter.com/NTAn8196'},
+                {type: 'linkedin', link: 'https://www.linkedin.com/in/an-nguy%E1%BB%85n-a25764151/'},
+            ]
+        },
+        nav: [
+            {link: '/', text: 'Home'},
+            {link: '/post', text: 'Blog'},
+        ],
     }
 }
