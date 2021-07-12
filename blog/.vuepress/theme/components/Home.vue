@@ -3,7 +3,7 @@
     <Content/>
     <div
         v-if="data.features && data.features.length"
-        class="grid grid-cols-3 gap-4"
+        class="grid grid-cols-1 md:grid-cols-3 gap-4"
     >
       <div
           v-for="(feature, index) in data.features"
@@ -15,6 +15,7 @@
         <p>{{ feature.details }}</p>
       </div>
     </div>
+    
   </div>
 </template>
 
