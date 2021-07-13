@@ -1,12 +1,12 @@
 <template>
   <div>
-    <Content/>
+    <Content slot-key="about"/>
     <div
-        v-if="data.features && data.features.length"
+        v-if="data.hobbies && data.hobbies.length"
         class="grid grid-cols-1 md:grid-cols-3 gap-4"
     >
       <div
-          v-for="(feature, index) in data.features"
+          v-for="(feature, index) in data.hobbies"
           :key="index"
           class="border-2 rounded-3xl text-center p-5 mt-2"
       >
@@ -15,13 +15,17 @@
         <p>{{ feature.details }}</p>
       </div>
     </div>
-    
+    <Content slot-key="work"/>
+    <Timeline :data="data.work"/>
   </div>
 </template>
 
 <script>
+import Timeline from "./Timeline";
+
 export default {
   name: "Home",
+  components: {Timeline},
   computed: {
     data () {
       return this.$page.frontmatter;

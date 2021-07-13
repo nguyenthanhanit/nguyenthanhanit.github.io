@@ -1,5 +1,5 @@
 <template>
-  <aside class="text-center">
+  <aside class="text-center pt-9">
     <div class="bg-bottom bg-cover bg-no-repeat h-72 rounded-3xl"
          :style="{'background-image': 'url(' + $withBase($site.themeConfig.host.avatar) + ')'}"></div>
     <div class="mt-2">

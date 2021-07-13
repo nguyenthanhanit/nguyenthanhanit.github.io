@@ -2,7 +2,7 @@
   <div class="p-7 bg-gray-100">
     <div class="container">
         <Header/>
-        <main class="grid md:grid-cols-4 gap-4 p-9 bg-white rounded-b-3xl rounded-tl-3xl">
+        <main class="grid md:grid-cols-4 gap-4 px-9 pb-9 bg-white rounded-b-3xl rounded-tl-3xl">
           <Aside/>
           <div class="md:col-span-3 md:pl-9">
             <template v-if="$page.frontmatter.home">
