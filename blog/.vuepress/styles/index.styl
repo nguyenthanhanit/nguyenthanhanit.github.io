@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html
-  @apply font-mono;
+  @apply font-sans;
   @apply text-sm;
 
 // Custom base style
@@ -26,6 +26,10 @@ a.header-anchor
   @apply items-center;
   @apply ml-2;
 
+@screen md
+  header nav:before
+    @apply opacity-100 !important;
+
 header nav:before
   content: "";
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAxMzYgNzAiPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik02NCA0OC4zMzNDNDAuMzEyIDcwIDAgNzAgMCA3MGgxMzUuNVYwaC04LjY3M0MxMDQuNDEgMCA4NS43MDQgMTUuNTg0IDc0LjMzMSAzNC45MDFjLTMuMDUgNS4xOC02LjUxNCA5Ljk0MS0xMC4zMzEgMTMuNDMyeiIvPjwvc3ZnPg==");
@@ -35,6 +39,7 @@ header nav:before
   @apply bg-no-repeat;
   left: -39%;
   width: 40%;
+  @apply opacity-0;
 
 .router-link-exact-active
   @apply bg-blue-500;

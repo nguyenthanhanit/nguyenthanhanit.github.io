@@ -48,4 +48,5 @@ ReactJS,
 MySQL,
 VueJS,
 HTML,
-CSS
+CSS,
+Git
