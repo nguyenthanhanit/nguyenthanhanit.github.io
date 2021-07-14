@@ -28,7 +28,7 @@ work:
   title: Web developer
 ---
 ::: slot about
-# Hello!
+# HELLO!
 Mình là An, một Software Engineer đang sống và làm việc giữa Sài Gòn hoa lệ.
 Mình đã bắt đầu công việc này từ 2017 sau khi tốt nghiệp Cao đẳng Kỹ thuật Cao Thắng.
 
@@ -36,5 +36,16 @@ Ngoài gia đình và công ty, mình hy vọng blog này sẽ là ngôi nhà th
 :::
 
 ::: slot work
-# Work
+# WORK
 :::
+
+# SKILL
+PHP,
+Laravel,
+MongoDB,
+Redis,
+ReactJS,
+MySQL,
+VueJS,
+HTML,
+CSS

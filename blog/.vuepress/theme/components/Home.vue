@@ -11,12 +11,13 @@
           class="border-2 rounded-3xl text-center p-5 mt-2"
       >
         <h2>{{ feature.title }}</h2>
-        <img class="m-auto" :src="$withBase('/images/' + feature.icon)" height="50" width="50" alt="img">
+        <img class="m-auto" :src="$withBase('/images/hobbies/' + feature.icon)" height="50" width="50" alt="img">
         <p>{{ feature.details }}</p>
       </div>
     </div>
     <Content slot-key="work"/>
     <Timeline :data="data.work"/>
+    <Content/>
   </div>
 </template>
 
@@ -27,7 +28,7 @@ export default {
   name: "Home",
   components: {Timeline},
   computed: {
-    data () {
+    data() {
       return this.$page.frontmatter;
     },
   }
