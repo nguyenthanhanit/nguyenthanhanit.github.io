@@ -1,6 +1,6 @@
 <template>
   <div class="p-7 bg-gray-100">
-    <div class="container">
+    <div class="container leading-relaxed">
         <Header/>
         <main class="grid md:grid-cols-4 gap-4 px-9 pb-9 bg-white rounded-b-3xl rounded-tl-3xl">
           <Aside/>
