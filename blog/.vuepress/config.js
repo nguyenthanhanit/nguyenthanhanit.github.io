@@ -23,7 +23,7 @@ module.exports = {
             title: 'Software Engineer',
             avatar: '/images/avatar.jpeg',
             email: 'nguyenan8196@gmail.com',
-            address: 'Sai Gon, Vietnam',
+            address: 'Ho Chi Minh City, Vietnam',
             social: [
                 {type: 'facebook', link: 'https://www.facebook.com/annguyen.81/'},
                 {type: 'instagram', link: 'https://www.instagram.com/nguyenthanhan1996'},

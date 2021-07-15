@@ -1,23 +1,17 @@
 ---
 home: true
 hobbies:
-- title: Sinh ra tại Đồng Nai
-  details: lớn lên ở Sài Gòn
+- title: I love Vietnam
   icon: baby.svg
 - title: Cà phê
-  details: đen đá
   icon: coffee.svg
 - title: Đá bóng
-  details: người chơi hệ mộc
   icon: football.svg
 - title: Chạy bộ
-  details: bé khỏe bé ngoan
   icon: run.svg
 - title: Guitar
-  details: thích như ôm gái
   icon: guitar.svg
 - title: Du lịch
-  details: đưa nhau đi trốn
   icon: travel.svg
 work:
 - time: 04/2021 - hiện tại

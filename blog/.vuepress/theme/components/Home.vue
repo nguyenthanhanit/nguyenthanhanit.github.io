@@ -10,9 +10,8 @@
           :key="index"
           class="border-2 rounded-3xl text-center p-5 mt-2"
       >
-        <h2>{{ feature.title }}</h2>
+        <h2 class="mb-2">{{ feature.title }}</h2>
         <img class="m-auto" :src="$withBase('/images/hobbies/' + feature.icon)" height="50" width="50" alt="img">
-        <p>{{ feature.details }}</p>
       </div>
     </div>
     <Content slot-key="work"/>
