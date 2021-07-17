@@ -15,7 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^9.8.6",
-    "postcss": "^8.2.7",
+    "postcss": "^8.3.5",
     "tailwindcss": "^2.0.3",
     "vuepress": "^1.8.2",
     "vuepress-plugin-container": "^2.1.5"
