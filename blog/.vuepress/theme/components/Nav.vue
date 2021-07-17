@@ -1,6 +1,6 @@
 <template>
   <nav class="bg-white pt-4 pb-1 pr-10 pl-2 rounded-tr-3xl relative">
-    <ul class="flex flex-row space-x-4">
+    <ul :class="ulClass">
       <slot></slot>
     </ul>
   </nav>
@@ -8,7 +8,13 @@
 
 <script>
 export default {
-  name: "Nav"
+  name: "Nav",
+  props: {
+    ulClass: {
+      type: String,
+      required: false,
+    }
+  }
 }
 </script>
 
