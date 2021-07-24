@@ -45,7 +45,7 @@ export default {
     }
   },
   methods: {
-    slideOver(type) {
+    slideOver() {
       let classSlide = 'slide-panel'
       return this.open ? `${classSlide}__in` : `${classSlide}__out`
     },
