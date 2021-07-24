@@ -1,15 +1,16 @@
 ---
 home: true
 hobbies:
-- title: Vietnam quyết thắng Covid
+- title: Vietnam quyết thắng Covid-19
   icon: iron-man.png
 - title: Cà phê
   icon: cafe.png
 - title: Đá bóng
   icon: soccer.png
-- title: Chạy bộ
+- title: Chạy bộ được
   icon: running.png
-- title: Guitar and Indie
+  type: run
+- title: Guitar và indie
   icon: rock-music.png
 - title: Du lịch
   icon: google-maps.png

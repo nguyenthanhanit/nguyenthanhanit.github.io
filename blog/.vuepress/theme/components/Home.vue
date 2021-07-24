@@ -10,7 +10,10 @@
           :key="index"
           class="border-2 rounded-3xl text-center p-5 mt-2"
       >
-        <h2 class="mb-2">{{ feature.title }}</h2>
+        <h2 class="mb-2 inline">{{ feature.title }}</h2>
+        <template v-if="feature.type === 'run'">
+          <Strava class="inline"/>
+        </template>
         <img class="m-auto" :src="$withBase('/images/hobbies/' + feature.icon)" height="50" width="50" alt="img">
       </div>
     </div>
@@ -22,10 +25,11 @@
 
 <script>
 import Timeline from "./Timeline";
+import Strava from "./Strava";
 
 export default {
   name: "Home",
-  components: {Timeline},
+  components: {Timeline, Strava},
   computed: {
     data() {
       return this.$page.frontmatter;

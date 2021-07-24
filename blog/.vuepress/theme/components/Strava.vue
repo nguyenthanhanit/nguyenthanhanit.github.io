@@ -1,7 +1,6 @@
 <template>
   <div>
-    <p class="ordinal inline">{{ `${distance}km` }}</p>
-    <p class="inline">trong năm {{ new Date().getFullYear() }}</p>
+    <p class="ordinal inline">{{ `${distance}km` }}</p> trong {{ new Date().getFullYear() }}
   </div>
 </template>
 
@@ -16,7 +15,9 @@ export default {
     }
   },
   created: function () {
-    this.refresh();
+    if (!this.distance) {
+      this.refresh();
+    }
   },
   methods: {
     // Use refresh token to get current access token
