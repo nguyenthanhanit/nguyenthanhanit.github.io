@@ -1,7 +1,7 @@
 ---
 home: true
 hobbies:
-- title: I love Vietnam, chiến thắng Covid
+- title: Vietnam quyết thắng Covid
   icon: iron-man.png
 - title: Cà phê
   icon: cafe.png
