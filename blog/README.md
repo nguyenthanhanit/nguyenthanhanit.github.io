@@ -1,18 +1,18 @@
 ---
 home: true
 hobbies:
-- title: I love Vietnam
-  icon: baby.svg
+- title: I love Vietnam, chiến thắng Covid
+  icon: iron-man.png
 - title: Cà phê
-  icon: coffee.svg
+  icon: cafe.png
 - title: Đá bóng
-  icon: football.svg
+  icon: soccer.png
 - title: Chạy bộ
-  icon: run.svg
+  icon: running.png
 - title: Guitar
-  icon: guitar.svg
+  icon: rock-music.png
 - title: Du lịch
-  icon: travel.svg
+  icon: google-maps.png
 work:
 - time: 04/2021 - hiện tại
   company:
