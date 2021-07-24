@@ -9,7 +9,7 @@ hobbies:
   icon: soccer.png
 - title: Chạy bộ
   icon: running.png
-- title: Guitar
+- title: Guitar and Indie
   icon: rock-music.png
 - title: Du lịch
   icon: google-maps.png
