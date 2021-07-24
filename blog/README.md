@@ -7,7 +7,7 @@ hobbies:
   icon: cafe.png
 - title: Đá bóng
   icon: soccer.png
-- title: Chạy bộ được
+- title: Chạy bộ
   icon: running.png
   type: run
 - title: Guitar và indie

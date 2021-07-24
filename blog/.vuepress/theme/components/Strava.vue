@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="ordinal inline">{{ `${distance}km` }}</p> trong {{ new Date().getFullYear() }}
+    <p class="ordinal inline">{{ `${distance}km` }}</p> trong năm {{ new Date().getFullYear() }}
 <!--    <Modal :open="showModal"/>-->
   </div>
 </template>
