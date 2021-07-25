@@ -1,7 +1,9 @@
 <template>
-  <div>
-    <p class="ordinal inline">{{ `${distance}km` }}</p> trong năm {{ new Date().getFullYear() }}
-<!--    <Modal :open="showModal"/>-->
+  <div class="inline">
+    <i class="animate-bounce cursor-pointer far fa-hand-point-left text-blue-500" @click="$refs.modal.show()"></i>
+    <modal ref="modal" title="Achievements">
+      Mình đã chạy được <p class="ordinal inline">{{ `${distance}km` }}</p> trong năm {{ new Date().getFullYear() }}
+    </modal>
   </div>
 </template>
 
@@ -17,7 +19,6 @@ export default {
   data() {
     return {
       distance: 318.6,
-      showModal: false
     }
   },
   created: function () {
@@ -38,10 +39,6 @@ export default {
     getActivities(access) {
       fetch(stravaConfig.profile_uri + access).then(res => res.json()).then(data => this.distance = (data.ytd_run_totals.distance / 1000).toFixed(1)).catch(e => console.log(e))
     },
-
-    // showInfo() {
-    //   this.showModal = !this.showModal;
-    // }
   }
 }
 </script>

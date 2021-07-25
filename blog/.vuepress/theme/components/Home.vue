@@ -12,7 +12,7 @@
       >
         <h2 class="mb-2 inline">{{ feature.title }}</h2>
         <template v-if="feature.type === 'run'">
-          <Strava class="inline"/>
+          <Strava/>
         </template>
         <img class="m-auto" :src="$withBase('/images/hobbies/' + feature.icon)" height="50" width="50" alt="img">
       </div>
