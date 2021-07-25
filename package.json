@@ -17,7 +17,9 @@
     "autoprefixer": "^9.8.6",
     "postcss": "^8.3.5",
     "tailwindcss": "^2.0.3",
-    "vuepress": "^1.8.2",
+    "vuepress": "^1.8.2"
+  },
+  "devDependencies": {
     "vuepress-plugin-container": "^2.1.5"
   }
 }

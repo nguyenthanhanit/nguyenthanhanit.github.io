@@ -34,14 +34,14 @@ export default {
 
 <style scoped lang="stylus">
 .fa-facebook
-  color #4267B2;
+  color #4267B2
 
 .fa-twitter
-  color #1DA1F2;
+  color #1DA1F2
 
 .fa-instagram
-  color #E1306C;
+  color #E1306C
 
 .fa-linkedin
-  color #2867B2;
+  color #2867B2
 </style>

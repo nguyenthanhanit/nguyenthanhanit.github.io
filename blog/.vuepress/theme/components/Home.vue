@@ -1,22 +1,7 @@
 <template>
   <div>
     <Content slot-key="about"/>
-    <div
-        v-if="data.hobbies && data.hobbies.length"
-        class="grid grid-cols-1 md:grid-cols-3 gap-4"
-    >
-      <div
-          v-for="(feature, index) in data.hobbies"
-          :key="index"
-          class="border-2 rounded-3xl text-center p-5 mt-2"
-      >
-        <h2 class="mb-2 inline">{{ feature.title }}</h2>
-        <template v-if="feature.type === 'run'">
-          <Strava/>
-        </template>
-        <img class="m-auto" :src="$withBase('/images/hobbies/' + feature.icon)" height="50" width="50" alt="img">
-      </div>
-    </div>
+    <Content slot-key="hobbies" class="grid grid-cols-1 md:grid-cols-3 gap-4"/>
     <Content slot-key="work"/>
     <Timeline :data="data.work"/>
     <Content/>
@@ -37,7 +22,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-
-</style>

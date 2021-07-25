@@ -17,6 +17,16 @@ module.exports = {
     head: [
         ['script', {src: 'https://kit.fontawesome.com/5935fb99c9.js', crossorigin: 'anonymous'}]
     ],
+    plugins: [
+        [
+            'container',
+            {
+                type: 'col-block',
+                before: info => `<div class="col-block border-2 rounded-3xl text-center p-5">${info}`,
+                after: '</div>',
+            },
+        ],
+    ],
     themeConfig: {
         host: {
             name: 'Nguyen Thanh An',

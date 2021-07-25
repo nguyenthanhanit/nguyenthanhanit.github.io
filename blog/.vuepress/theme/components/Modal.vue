@@ -10,7 +10,7 @@
       <div class="py-4 text-left px-6">
         <!--Title-->
         <div class="flex justify-between items-center pb-3">
-          <p class="text-2xl font-bold">{{title}}</p>
+          <p class="text-2xl font-bold">{{ title }}</p>
           <div class="cursor-pointer z-10" @click="show">
             <svg class="fill-current text-black" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                  viewBox="0 0 18 18">

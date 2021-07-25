@@ -7,7 +7,3 @@ export default {
   name: "Page"
 }
 </script>
-
-<style scoped>
-
-</style>
