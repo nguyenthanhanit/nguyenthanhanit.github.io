@@ -26,6 +26,14 @@ module.exports = {
                 after: '</div>',
             },
         ],
+        [
+            'container',
+            {
+                type: 'timeline-wrap',
+                before: info => `<timeline>`,
+                after: '</timeline>',
+            },
+        ],
     ],
     themeConfig: {
         host: {

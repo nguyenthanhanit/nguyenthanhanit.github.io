@@ -1,0 +1,55 @@
+<template>
+  <div class="flex flex-col md:grid grid-cols-12">
+
+    <div class="flex md:contents">
+      <div class="col-start-1 col-end-2 mr-10 relative">
+        <div class="h-full w-6 flex items-center justify-center">
+          <div class="h-full w-1 bg-blue-500 pointer-events-none"></div>
+        </div>
+        <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow text-center">
+          <svg class="animate-spin text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
+               viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+            <path class="opacity-75" fill="currentColor"
+                  d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+          </svg>
+        </div>
+      </div>
+      <div class="col-start-2 col-end-13 p-4 rounded-3xl my-4 mr-auto w-full">
+        <h3 class="font-semibold text-lg mb-1">05/2021 - Hiện tại</h3>
+        <p class="leading-tight">Software Engineer tại VNG Corporation</p>
+      </div>
+    </div>
+
+    <div class="flex md:contents">
+      <div class="col-start-1 col-end-2 mr-10 relative">
+        <div class="h-full w-6 flex items-center justify-center">
+          <div class="h-full w-1 bg-blue-500 pointer-events-none"></div>
+        </div>
+        <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow text-center">
+          <i class="fas fa-check-circle text-white"></i>
+        </div>
+      </div>
+      <div class="col-start-2 col-end-13 p-4 rounded-3xl my-4 mr-auto w-full">
+        <h3 class="font-semibold text-lg mb-1">12/2017 - 04/2021</h3>
+        <p class="leading-tight">Web developer tại HDWEBSOFT Software Development Company</p>
+      </div>
+    </div>
+
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Timeline",
+  props: {
+    data: {
+      type: String,
+      required: false,
+    }
+  }
+}
+</script>
+
+<style scoped lang="stylus">
+</style>
