@@ -1,13 +1,14 @@
 <template>
   <div class="flex flex-col md:grid grid-cols-12">
 
-    <div class="flex md:contents">
+    <div class="flex md:contents" v-for="(value, key, index) in timelines">
       <div class="col-start-1 col-end-2 mr-10 relative">
         <div class="h-full w-6 flex items-center justify-center">
           <div class="h-full w-1 bg-blue-500 pointer-events-none"></div>
         </div>
         <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow text-center">
-          <svg class="animate-spin text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
+          <i v-if="index" class="fas fa-check-circle text-white"></i>
+          <svg v-else class="animate-spin text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
                viewBox="0 0 24 24">
             <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
             <path class="opacity-75" fill="currentColor"
@@ -16,23 +17,8 @@
         </div>
       </div>
       <div class="col-start-2 col-end-13 p-4 rounded-3xl my-4 mr-auto w-full">
-        <h3 class="font-semibold text-lg mb-1">05/2021 - Hiện tại</h3>
-        <p class="leading-tight">Software Engineer tại VNG Corporation</p>
-      </div>
-    </div>
-
-    <div class="flex md:contents">
-      <div class="col-start-1 col-end-2 mr-10 relative">
-        <div class="h-full w-6 flex items-center justify-center">
-          <div class="h-full w-1 bg-blue-500 pointer-events-none"></div>
-        </div>
-        <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow text-center">
-          <i class="fas fa-check-circle text-white"></i>
-        </div>
-      </div>
-      <div class="col-start-2 col-end-13 p-4 rounded-3xl my-4 mr-auto w-full">
-        <h3 class="font-semibold text-lg mb-1">12/2017 - 04/2021</h3>
-        <p class="leading-tight">Web developer tại HDWEBSOFT Software Development Company</p>
+        <h3 class="font-semibold text-lg mb-1">{{ key }}</h3>
+        <p class="leading-tight">{{ value }}</p>
       </div>
     </div>
 
@@ -45,11 +31,13 @@ export default {
   props: {
     data: {
       type: String,
-      required: false,
+      required: true,
+    }
+  },
+  computed: {
+    timelines() {
+      return JSON.parse(this.data)
     }
   }
 }
 </script>
-
-<style scoped lang="stylus">
-</style>
