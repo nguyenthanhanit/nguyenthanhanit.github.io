@@ -36,7 +36,7 @@ Ngoài gia đình và công ty, mình hy vọng blog này sẽ là ngôi nhà th
 
 # WORK
 ::: timeline
-05/2021 - Hiện tại
+05/2021
 Software Engineer tại VNG Corporation
 12/2017 - 04/2021
 Web developer tại HDWEBSOFT Software Development Company
