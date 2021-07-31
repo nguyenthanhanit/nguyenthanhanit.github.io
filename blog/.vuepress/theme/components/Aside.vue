@@ -36,9 +36,6 @@ export default {
 .fa-facebook
   color #4267B2
 
-.fa-twitter
-  color #1DA1F2
-
 .fa-instagram
   color #E1306C
 

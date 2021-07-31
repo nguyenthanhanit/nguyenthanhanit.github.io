@@ -57,7 +57,7 @@ module.exports = {
     ],
     themeConfig: {
         host: {
-            name: 'Nguyen Thanh An',
+            name: 'Nguyễn Thành An',
             title: 'Software Engineer',
             avatar: '/images/avatar.jpeg',
             email: 'nguyenan8196@gmail.com',
@@ -65,7 +65,6 @@ module.exports = {
             social: [
                 {type: 'facebook', link: 'https://www.facebook.com/annguyen.81/'},
                 {type: 'instagram', link: 'https://www.instagram.com/nguyenthanhan1996'},
-                {type: 'twitter', link: 'https://twitter.com/NTAn8196'},
                 {type: 'linkedin', link: 'https://www.linkedin.com/in/an-nguy%E1%BB%85n-a25764151/'},
             ]
         },
