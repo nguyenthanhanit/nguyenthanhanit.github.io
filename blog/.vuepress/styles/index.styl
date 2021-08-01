@@ -48,3 +48,13 @@ header nav:before
 .col-block
   img
     @apply m-auto
+
+
+.timeline
+  .point
+    content: url(/images/checked.svg)
+
+.timeline:first-of-type
+  .point
+    @apply animate-spin
+    content: url(/images/loading.svg)

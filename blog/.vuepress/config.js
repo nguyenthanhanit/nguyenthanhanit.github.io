@@ -1,4 +1,3 @@
-const _ = require("lodash");
 module.exports = {
     title: 'Nguyen Thanh An - Software Engineer | A Saigonese',
     description: 'Nhà của An',
@@ -19,11 +18,12 @@ module.exports = {
         ['script', {src: 'https://kit.fontawesome.com/5935fb99c9.js', crossorigin: 'anonymous'}]
     ],
     plugins: [
+        // Features container
         [
             'container',
             {
                 type: 'features-wrap',
-                before: info => `<div class="grid grid-cols-1 md:grid-cols-3 gap-4">`,
+                before: info => '<div class="grid grid-cols-1 md:grid-cols-3 gap-4">',
                 after: '</div>',
             },
         ],
@@ -35,23 +35,30 @@ module.exports = {
                 after: '</div>',
             },
         ],
+        // Timeline container
         [
             'container',
             {
-                type: 'timeline',
-                render: function (tokens, idx) {
-                    if (tokens[idx].nesting === 1) {
-                        let contents = {};
-                        let text = _.filter(tokens[idx + 2].children, function (o) {
-                            return o.type === 'text'
-                        });
-                        _.each(_.chunk(text, 2), function (o) {
-                            contents = {...contents, ...{[o[0].content]: o[1].content}}
-                        });
-                        return `<timeline data='${JSON.stringify(contents)}'>`;
-                    }
-                    return '</timeline>';
-                }
+                type: 'timeline-wrap',
+                before: info => '<div class="flex flex-col md:grid grid-cols-12">',
+                after: '</div>',
+            },
+        ],
+        [
+            'container',
+            {
+                type: 'timeline-block',
+                before: info => `<div class="timeline flex md:contents">
+                                  <div class="col-start-1 col-end-2 mr-10 relative">
+                                    <div class="h-full w-6 flex items-center justify-center">
+                                      <div class="h-full w-1 bg-blue-500 pointer-events-none"></div>
+                                    </div>
+                                    <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow text-center">
+                                      <div class="point"></div>
+                                    </div>
+                                  </div>
+                                  <div class="col-start-2 col-end-13 p-4 rounded-3xl my-4 mr-auto w-full"><strong>${info}</strong>`,
+                after: '</div></div>',
             },
         ],
     ],
