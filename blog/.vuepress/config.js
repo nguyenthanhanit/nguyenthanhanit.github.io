@@ -71,8 +71,8 @@ module.exports = {
             address: 'Ho Chi Minh City, Vietnam',
             social: [
                 {type: 'facebook', link: 'https://www.facebook.com/annguyen.81/'},
-                {type: 'instagram', link: 'https://www.instagram.com/nguyenthanhan1996'},
-                {type: 'linkedin', link: 'https://www.linkedin.com/in/an-nguy%E1%BB%85n-a25764151/'},
+                {type: 'instagram', link: 'https://www.instagram.com/nguyenthanhanit'},
+                {type: 'linkedin', link: 'linkedin.com/in/an-nguyễn-a25764151'},
             ]
         },
         nav: [
