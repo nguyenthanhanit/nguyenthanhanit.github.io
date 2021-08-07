@@ -1,12 +1,14 @@
 <template>
   <li>
-    <RouterLink :to="href" class="px-3 py-2 rounded-3xl font-medium" :class="{ 'bg-blue-500 text-white': isActive }">
+    <RouterLink :to="href" class="relative block px-3 py-2 rounded-3xl font-medium" :class="{ 'bg-blue-500 text-white': isActive }">
       <slot></slot>
     </RouterLink>
   </li>
 </template>
 
 <script>
+import _ from "lodash";
+
 export default {
   name: "NavItem",
   props: {
@@ -18,7 +20,8 @@ export default {
   computed: {
     isActive() {
       const links = [this.href, `${this.href}/`]
-      return links.includes(this.$page.path)
+      let path = _.split(this.$page.path, '/');
+      return links.includes(`/${path[1]}/`)
     }
   }
 }
