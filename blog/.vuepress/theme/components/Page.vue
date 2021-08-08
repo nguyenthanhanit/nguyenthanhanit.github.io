@@ -1,7 +1,7 @@
 <template>
   <div class="grid md:grid-cols-4 px-9 pb-9 bg-white rounded-b-3xl rounded-tl-3xl" :class="{ 'md:flex': posts.length }">
-    <Aside v-if="posts.length" :class="$page.path === '/' ? 'block' : 'hidden md:block'">
-      <Nav class="w-96">
+    <Aside v-if="posts.length" :class="$page.path === '/' ? 'block' : 'md:block'">
+      <Nav class="md:w-96">
         <NavItem v-for="post in posts" :href="post.path" class="bg-gray-100 hover:bg-gray-300 transition duration-150"
                  :class="{ 'bg-blue-500 hover:bg-blue-500 text-white': isActive(post.path) }">
           <span class="text-xl">{{ post.title }}</span>
