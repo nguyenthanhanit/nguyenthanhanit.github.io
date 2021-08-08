@@ -18,6 +18,7 @@ module.exports = {
         ['script', {src: 'https://kit.fontawesome.com/5935fb99c9.js', crossorigin: 'anonymous'}]
     ],
     plugins: [
+        ['@vuepress/last-updated'],
         // Features container
         [
             'container',

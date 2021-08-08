@@ -3,7 +3,9 @@
     <Aside v-if="posts.length" :class="$page.path === '/' ? 'block' : 'hidden md:block'">
       <Nav class="w-96">
         <NavItem v-for="post in posts" :href="post.path" class="bg-gray-100 hover:bg-gray-300 transition duration-150"
-                 :class="{ 'bg-blue-500 hover:bg-blue-500 text-white': isActive(post.path) }">{{ post.title }}
+                 :class="{ 'bg-blue-500 hover:bg-blue-500 text-white': isActive(post.path) }">
+          <span class="text-xl">{{ post.title }}</span>
+          <span class="block text-white w-min rounded-3xl px-1 post-title">{{ post.frontmatter.created }}</span>
         </NavItem>
       </Nav>
     </Aside>
@@ -31,9 +33,13 @@ export default {
   },
   computed: {
     posts() {
-      return _.reject(this.$site.pages.filter(p => p.path.includes('/post')), function (o) {
+      let data = _.reject(this.$site.pages.filter(p => p.path.includes('/post')), function (o) {
         return o.relativePath === 'post/README.md';
-      });
+      })
+
+      return _.reverse(_.sortBy(data, [function (o) {
+        return o.frontmatter.created;
+      }]));
     }
   },
   methods: {
@@ -43,3 +49,9 @@ export default {
   }
 }
 </script>
+
+
+<style scoped lang="stylus">
+.post-title
+  background-color #DE7E99
+</style>
