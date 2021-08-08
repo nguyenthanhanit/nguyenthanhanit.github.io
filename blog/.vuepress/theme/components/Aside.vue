@@ -1,5 +1,5 @@
 <template>
-  <aside class="mt-9">
+  <aside class="pt-9 md:sticky md:top-0 h-full md:w-96">
     <slot></slot>
   </aside>
 </template>

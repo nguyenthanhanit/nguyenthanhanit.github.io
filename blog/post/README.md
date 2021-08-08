@@ -1,1 +1,0 @@
-<img src="/images/building.svg" alt="building" width="500" height="500" class="pt-9 m-auto"/>

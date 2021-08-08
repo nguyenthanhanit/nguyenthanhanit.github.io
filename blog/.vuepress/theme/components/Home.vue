@@ -1,5 +1,5 @@
 <template>
-  <div class="grid md:grid-cols-4 gap-4 px-9 pb-9 bg-white rounded-b-3xl rounded-tl-3xl">
+  <div class="md:flex grid md:grid-cols-4 px-9 pb-9 bg-white rounded-b-3xl rounded-tl-3xl">
     <Aside :class="$page.path === '/' ? 'block' : 'hidden md:block'" class="text-center">
       <div class="bg-bottom bg-cover bg-no-repeat h-72 rounded-3xl"
            :style="{'background-image': 'url(' + $withBase($site.themeConfig.host.avatar) + ')'}"></div>
@@ -23,7 +23,7 @@
         </span>
       </div>
     </Aside>
-    <div class="md:col-span-3 md:pl-9">
+    <div class="md:pl-9">
       <Content/>
     </div>
   </div>
