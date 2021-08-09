@@ -5,11 +5,11 @@
         <NavItem v-for="post in posts" :href="post.path" class="bg-gray-100 hover:bg-gray-300 transition duration-150"
                  :class="{ 'bg-blue-500 hover:bg-blue-500 text-white': isActive(post.path) }">
           <span class="text-xl">{{ post.title }}</span>
-          <span class="block text-white w-min rounded-3xl px-1 post-title">{{ post.frontmatter.created }}</span>
+          <span class="block text-white w-min rounded-3xl px-1 post__title">{{ post.frontmatter.created }}</span>
         </NavItem>
       </Nav>
     </Aside>
-    <div class="md:pl-9 w-full" v-if="posts.length">
+    <div class="md:pl-9 w-full post" v-if="posts.length">
       <Content/>
     </div>
     <div v-else class="md:col-span-4 w-full">
@@ -49,9 +49,3 @@ export default {
   }
 }
 </script>
-
-
-<style scoped lang="stylus">
-.post-title
-  background-color #DE7E99
-</style>

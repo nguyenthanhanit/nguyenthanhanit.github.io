@@ -26,7 +26,7 @@ Làm một chiếc blog như này không khó. Bạn có thể sử dụng các 
 
 
 Do trong lúc rãnh rỗi nên mình đã quyết định tự làm từ a tới á, từ ơ tới ớ chiếc blog này bằng cách:
-- Giao diện bởi __[VuePress](https://vuepress.vuejs.org/)__ và __[tailwindcss](https://tailwindcss.com/)__
+- Dùng __[VuePress](https://vuepress.vuejs.org/)__ và __[tailwindcss](https://tailwindcss.com/)__ để thiết kế giao diện
 - Host trên __[Github pages](https://github.com//)__ 
 - Domain mua ở __[namecheap](https://www.namecheap.com/)__
 
