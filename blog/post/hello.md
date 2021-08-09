@@ -10,6 +10,8 @@ Nhưng hôm nay là một ngày rất đáng nhớ, ngày 8 tháng 8, một con 
 
 Việc từ nay không còn được thấy anh thi đấu trong màu áo của Barca khiến mình cảm thấy buồn và hụt hẫng. Vì vậy, nhân sự kiện này mình quyết định lên bài đầu tiên để đánh dấu một cột mốc cho blog của mình, dù không mấy vui vẻ gì :).
 
+![10ve](/images/10ve.jpeg)
+
 # Tại sao lại là viết blog?
 8 giờ ở công ty, 2 giờ chơi thể thao, 3 giờ để ôm đàn, ôm laptop, và làm vài thứ linh tinh khi về nhà. Mình đã sống với một routine như thế suốt thời gian vừa qua, và rồi bùm :collision: , con vi rút chết bằm đã làm thay đổi mọi thứ.
 
@@ -20,7 +22,7 @@ Những bài viết của mình có thể theo khuynh hướng cảm hứng, kh�
 # Làm sao để làm một blog như này?
 Blog này mình lấy ý tưởng từ anh __[qmau](https://qmau.me/)__ và người anh em thân thiết __[quyen](https://tatviquyen.name.vn/)__ (các bạn có thể connect với họ qua các bài viết rất bổ ích).
 
-Làm một chiếc blog như này không khó. Bạn hoàn toàn có thể sử dụng các services, framework hoặc static site generator như Gatsby, VuePress, Github pages, Wordpress, Blogger,... Là một lập trình viên, cái khó của mình lại ý tưởng cho các bài viết, cách viết, lý do thì như đã nói ở trên.
+Làm một chiếc blog như này không khó. Bạn có thể sử dụng các services, framework hoặc static site generator như Gatsby, VuePress, Github pages, Wordpress, Blogger,... Là một lập trình viên, cái khó của mình lại ý tưởng cho các bài viết, cách viết, lý do thì như đã nói ở trên.
 
 
 Do trong lúc rãnh rỗi nên mình đã quyết định tự làm từ a tới á, từ ơ tới ớ chiếc blog này bằng cách:
