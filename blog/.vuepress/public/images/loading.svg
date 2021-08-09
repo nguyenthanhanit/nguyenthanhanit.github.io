@@ -1,3 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="color: white;">
-    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+<?xml version="1.0" encoding="utf-8"?>
+<svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="color: white;" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M 4 19.989 L 4 14.989 L 4.582 14.989 M 19.938 12.989 C 19.169 19.1 12.073 22.087 7.165 18.365 C 6.015 17.493 5.123 16.327 4.582 14.989 M 4.582 14.989 L 9 14.989 M 20 3.989 L 20 8.989 L 19.419 8.989 M 19.419 8.989 C 17.106 3.279 9.479 2.215 5.69 7.073 C 4.805 8.208 4.243 9.561 4.062 10.989 M 19.419 8.989 L 15 8.989" transform="matrix(-1, 0, 0, -1, 24, 23.989213)"/>
 </svg>
