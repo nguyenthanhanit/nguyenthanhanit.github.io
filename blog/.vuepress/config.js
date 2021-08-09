@@ -15,7 +15,8 @@ module.exports = {
         }
     },
     head: [
-        ['script', {src: 'https://kit.fontawesome.com/5935fb99c9.js', crossorigin: 'anonymous'}]
+        ['script', {src: 'https://kit.fontawesome.com/5935fb99c9.js', crossorigin: 'anonymous'}],
+        ['link', {href: 'https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap', rel: 'stylesheet'}]
     ],
     plugins: [
         ['@vuepress/last-updated'],
@@ -69,7 +70,7 @@ module.exports = {
             title: 'Software Engineer',
             avatar: '/images/avatar.jpeg',
             email: 'nguyenan8196@gmail.com',
-            address: 'Ho Chi Minh City, Vietnam',
+            address: 'Ho Chi Minh City, Viet Nam',
             social: [
                 {type: 'facebook', link: 'https://www.facebook.com/annguyen.81/'},
                 {type: 'instagram', link: 'https://www.instagram.com/nguyenthanhanit'},

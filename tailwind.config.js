@@ -9,6 +9,9 @@ module.exports = {
         container: {
             center: true,
         },
+        fontFamily: {
+            'nunito': ['nunito', 'sans-serif'],
+        },
     },
     variants: {
         extend: {},
