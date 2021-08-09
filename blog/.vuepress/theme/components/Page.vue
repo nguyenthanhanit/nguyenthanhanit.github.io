@@ -9,7 +9,7 @@
         </NavItem>
       </Nav>
     </Aside>
-    <div class="md:pl-9" v-if="posts.length">
+    <div class="md:pl-9 w-full" v-if="posts.length">
       <Content/>
     </div>
     <div v-else class="md:col-span-4 w-full">
