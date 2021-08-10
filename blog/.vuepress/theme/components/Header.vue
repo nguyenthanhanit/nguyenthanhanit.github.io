@@ -59,15 +59,18 @@ export default {
   data() {
     return {
       open: false,
-      windowWidth: document.getElementById('app').offsetWidth
     }
+  },
+  mounted: function () {
+    this.$nextTick(function () {
+      if (typeof window !== "undefined" && window.innerHeight >= 768) {
+        this.open = true
+      }
+    })
   },
   methods: {
     slideOver() {
       let classSlide = 'slide-panel'
-      if (this.windowWidth >= 768) {
-        return `${classSlide}__in`
-      }
       return this.open ? `${classSlide}__in` : `${classSlide}__out`
     },
     show() {
