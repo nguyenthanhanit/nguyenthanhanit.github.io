@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-white rounded-tr-3xl relative">
+  <nav class="bg-white md:rounded-tr-3xl relative w-full md:w-auto">
     <ul :class="ulClass">
       <slot></slot>
     </ul>
