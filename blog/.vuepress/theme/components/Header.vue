@@ -59,13 +59,12 @@ export default {
   data() {
     return {
       open: false,
-      windowHeight: window.innerHeight,
     }
   },
   methods: {
     slideOver() {
       let classSlide = 'slide-panel'
-      if (this.windowHeight >= 768) {
+      if (typeof window !== "undefined" && window.innerHeight >= 768) {
         return `${classSlide}__in`
       }
       return this.open ? `${classSlide}__in` : `${classSlide}__out`
