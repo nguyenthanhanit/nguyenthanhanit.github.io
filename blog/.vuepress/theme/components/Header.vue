@@ -59,38 +59,19 @@ export default {
   data() {
     return {
       open: false,
-      window: {
-        width: 0,
-        height: 0
-      }
-    }
-  },
-  created() {
-    if (typeof window !== "undefined") {
-      window.addEventListener('resize', this.handleResize);
-      this.handleResize();
-    }
-
-  },
-  destroyed() {
-    if (typeof window !== "undefined") {
-      window.removeEventListener('resize', this.handleResize);
+      windowWidth: document.getElementById('app').offsetWidth
     }
   },
   methods: {
     slideOver() {
       let classSlide = 'slide-panel'
+      if (this.windowWidth >= 768) {
+        return `${classSlide}__in`
+      }
       return this.open ? `${classSlide}__in` : `${classSlide}__out`
     },
     show() {
       this.open = !this.open
-    },
-    handleResize() {
-      this.window.width = window.innerWidth
-      this.window.height = window.innerHeight
-      if (this.window.width >= 768) {
-        this.open = true
-      }
     }
   },
 }
