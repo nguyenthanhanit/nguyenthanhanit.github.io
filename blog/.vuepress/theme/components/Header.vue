@@ -66,11 +66,16 @@ export default {
     }
   },
   created() {
-    window.addEventListener('resize', this.handleResize);
-    this.handleResize();
+    if (typeof window !== "undefined") {
+      window.addEventListener('resize', this.handleResize);
+      this.handleResize();
+    }
+
   },
   destroyed() {
-    window.removeEventListener('resize', this.handleResize);
+    if (typeof window !== "undefined") {
+      window.removeEventListener('resize', this.handleResize);
+    }
   },
   methods: {
     slideOver() {
@@ -83,7 +88,7 @@ export default {
     handleResize() {
       this.window.width = window.innerWidth
       this.window.height = window.innerHeight
-      if (typeof this.window.width !== "undefined" && this.window.width >= 768) {
+      if (this.window.width >= 768) {
         this.open = true
       }
     }
