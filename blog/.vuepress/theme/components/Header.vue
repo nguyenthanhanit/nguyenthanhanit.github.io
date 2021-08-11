@@ -63,7 +63,6 @@ export default {
   },
   mounted: function () {
     this.$nextTick(function () {
-      console.log(window)
       if (typeof window !== "undefined" && window.innerWidth >= 768) {
         this.open = true
       }
