@@ -1,6 +1,5 @@
 ---
 title: Hello world!
-created: 08/08/2021
 ---
 
 # Hôm nay ngày mấy?
@@ -27,11 +26,11 @@ Làm một chiếc blog như này không khó. Bạn có thể sử dụng các 
 
 Do trong lúc rãnh rỗi nên mình đã quyết định tự làm từ a tới á, từ ơ tới ớ chiếc blog này bằng cách:
 - Dùng __[VuePress](https://vuepress.vuejs.org/)__ và __[tailwindcss](https://tailwindcss.com/)__ để thiết kế giao diện
-- Host trên __[Github pages](https://github.com//)__ 
+- Host trên __[Github pages](https://github.com/)__ 
 - Domain mua ở __[namecheap](https://www.namecheap.com/)__
 
 # Kế hoạch cho tương lai
-Mình đã, đang và sẽ đầu tư cho blog này một cách bài bản nhất, không chỉ vì nó là một mái nhà trên mây của mình, mà còn là điều mình cần làm trong thời gian giãn cách.
+Mình đã, đang và sẽ đầu tư cho blog này một cách bài bản nhất, không chỉ vì nó là một mái nhà trên mây của mình, mà còn là điều mình muốn làm trong lúc rãnh rỗi.
 Trong thời gian sắp tới, mình sẽ tiếp tục:
 - Xây dựng, nâng cấp giao diện
 - Tích hợp hệ thống Analytics, SEO,...
