@@ -1,5 +1,6 @@
 ---
 title: Hello world!
+created: 08/08/2021
 ---
 
 # Hôm nay ngày mấy?
