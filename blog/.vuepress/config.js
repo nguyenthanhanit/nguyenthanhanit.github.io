@@ -16,7 +16,9 @@ module.exports = {
     },
     head: [
         ['script', {src: 'https://kit.fontawesome.com/5935fb99c9.js', crossorigin: 'anonymous'}],
-        ['link', {href: 'https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap', rel: 'stylesheet'}]
+        ['link', {href: 'https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap', rel: 'stylesheet'}],
+        ['script', {src: 'https://www.googletagmanager.com/gtag/js?id=G-3MXKK0R9LX', async: true}],
+        ["script", { src: "/js/google-analytics.js" }]
     ],
     plugins: [
         ['@vuepress/last-updated'],
