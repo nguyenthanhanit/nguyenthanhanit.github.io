@@ -9,7 +9,7 @@
           <div class="mt-2">
             <span class="font-bold text-2xl">{{ $site.themeConfig.host.name }}</span>
           </div>
-          <div class="rounded-3xl py-1 px-1 bg-gray-100 w-3/4 2xl:w-1/2 m-auto">{{ $site.themeConfig.host.title }}</div>
+          <div class="rounded-3xl py-1 px-1 bg-gray-100 m-auto">{{ $site.themeConfig.host.title }}</div>
           <div class="contact mt-2 space-x-2 mb-2">
             <a v-for="item in $site.themeConfig.host.social" :href="item.link">
               <i :class="'fab fa-' + item.type"></i>
