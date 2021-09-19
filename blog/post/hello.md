@@ -12,7 +12,7 @@ Sài Gòn đang bước vào giai đoạn cao điểm giãn cách và phòng ch�
 
 Nhưng hôm nay là một ngày rất đáng nhớ, ngày 8 tháng 8, một con số khá đẹp, không chỉ đặc biệt vì bắt đầu cho tháng cô hồn :ghost:, mà nó còn đánh dấu một sự kiện rất quan trọng - Leo Messi(my idol) nói lời chia tay Barcelona trong nước mắt sau 21 năm gắn bó.
 
-Việc từ nay không còn được thấy anh thi đấu trong màu áo của Barca khiến mình cảm thấy buồn và hụt hẫng. Vì vậy, nhân sự kiện này mình quyết định lên bài đầu tiên để đánh dấu một cột mốc cho blog của mình, dù không mấy vui vẻ gì :).
+Việc từ nay không còn được thấy anh thi đấu trong màu áo của Barca khiến mình cảm thấy buồn và hụt hẫng. Vì vậy, nhân sự kiện này mình quyết định lên bài đầu tiên để đánh dấu một cột mốc cho blog.
 
 ![10ve](/images/10ve.jpeg)
 
@@ -35,8 +35,8 @@ Do trong lúc rãnh rỗi nên mình đã quyết định tự làm từ a tới
 - Domain mua ở __[namecheap](https://www.namecheap.com/)__
 
 # Kế hoạch cho tương lai
-Mình đã, đang và sẽ đầu tư cho blog này một cách bài bản nhất, không chỉ vì nó là một mái nhà trên mây của mình, mà còn là điều mình muốn làm trong lúc rãnh rỗi.
-Trong thời gian sắp tới, mình sẽ tiếp tục:
+Mình đã, đang và sẽ đầu tư cho blog này, không chỉ vì nó là một mái nhà trên mây của mình, mà còn là điều mình muốn làm trong lúc rãnh rỗi.
+Trong thời gian sắp tới, mình sẽ cố gắng tiếp tục:
 - Xây dựng, nâng cấp giao diện
 - Tích hợp hệ thống Analytics, SEO,...
 - Viết các bài mới
