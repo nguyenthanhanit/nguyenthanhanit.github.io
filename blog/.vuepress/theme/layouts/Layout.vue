@@ -1,8 +1,8 @@
 <template>
   <div class="p-7 bg-gray-100">
     <div class="container leading-relaxed">
-      <Header/>
-      <main class="md:flex grid md:grid-cols-4 px-9 pb-9 bg-white rounded-b-3xl rounded-tl-3xl">
+<!--      <Header/>-->
+      <main class="md:flex grid md:grid-cols-4 px-9 pb-9 bg-white rounded-3xl">
         <Aside>
           <div class="bg-bottom bg-cover bg-no-repeat h-56 md:w-64 rounded-3xl"
                :style="{'background-image': 'url(' + $withBase($site.themeConfig.host.avatar) + ')'}"></div>

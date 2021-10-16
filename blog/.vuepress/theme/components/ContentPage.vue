@@ -1,5 +1,5 @@
 <template>
-  <div class="md:pl-9" :class="$page.frontmatter.home ? '' : 'post'">
+  <div class="md:pl-9">
     <Content/>
   </div>
 </template>
