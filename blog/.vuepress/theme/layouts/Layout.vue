@@ -5,25 +5,25 @@
       <main class="md:flex grid md:grid-cols-4 px-9 pb-9 bg-white md:rounded-3xl md:rounded-tr-none rounded-b-3xl">
         <Aside>
           <div class="bg-bottom bg-cover bg-no-repeat h-56 md:w-64 rounded-3xl"
-               :style="{'background-image': 'url(' + $withBase($site.themeConfig.host.avatar) + ')'}"></div>
+               :style="{'background-image': 'url(' + $withBase($site.themeConfig.host.avatar) + ')'}"/>
           <div class="mt-2">
             <span class="font-bold text-2xl">{{ $site.themeConfig.host.name }}</span>
           </div>
           <div class="rounded-3xl py-1 px-1 bg-gray-100 m-auto">{{ $site.themeConfig.host.title }}</div>
           <div class="contact mt-2 space-x-2 mb-2">
             <a v-for="item in $site.themeConfig.host.social" :href="item.link">
-              <i :class="'fab fa-' + item.type"></i>
+              <i :class="'fab fa-' + item.type"/>
             </a>
           </div>
           <div class="text-center w-full">
-        <span class="inline-block">
-          <i class="fas fa-home"></i> {{ $site.themeConfig.host.address }}
-        </span>
             <span class="inline-block">
-          <a :href="'mailto:' + $site.themeConfig.host.email">
-            <i class="far fa-envelope"></i> {{ $site.themeConfig.host.email }}
-          </a>
-        </span>
+              <i class="fas fa-home"/> {{ $site.themeConfig.host.address }}
+            </span>
+            <span class="inline-block">
+              <a :href="'mailto:' + $site.themeConfig.host.email">
+                <i class="far fa-envelope"/> {{ $site.themeConfig.host.email }}
+              </a>
+            </span>
           </div>
         </Aside>
         <ContentPage/>
