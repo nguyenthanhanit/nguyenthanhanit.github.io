@@ -6,7 +6,7 @@ home: true
 Mình là An, một Software Engineer đang sống và làm việc tại Sài Gòn.
 Mình đã bắt đầu công việc này từ 2017 sau khi tốt nghiệp Cao đẳng Kỹ thuật Cao Thắng.
 
-Ngoài gia đình và công ty, mình hy vọng đây này sẽ là ngôi nhà thứ 3, nơi mình có thể show off bản thân cũng như chia sẻ về những điều nhỏ nhặt, hay ho trong cuộc sống.
+Ngoài gia đình và công ty, mình hy vọng blog này sẽ là ngôi nhà thứ 3, nơi mình có thể show off bản thân cũng như chia sẻ về những điều nhỏ nhặt, hay ho trong cuộc sống.
 
 :::::: features-wrap
 ::: features-block Vietnam quyết thắng Covid-19
