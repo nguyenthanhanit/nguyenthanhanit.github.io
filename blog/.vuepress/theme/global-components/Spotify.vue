@@ -1,16 +1,19 @@
 <template>
-  <div  v-if="song">
-    <i class="fab fa-spotify animate-spin"></i>{{ song }} - {{ artist }}
+  <div v-if="song && is_playing">
+    <i class="fab fa-spotify" :class="is_playing ? 'animate-spin' : ''"></i> {{ song }} - {{ artist }}
   </div>
 </template>
 
 <script>
+import _ from "lodash";
+
 export default {
   name: "Spotify",
   data() {
     return {
       song: '',
-      artist: ''
+      artist: '',
+      is_playing: false
     }
   },
   mounted: function () {
@@ -20,8 +23,15 @@ export default {
     getSongPlaying() {
       fetch('https://still-woodland-24462.herokuapp.com/spotify/playing')
           .then(res => res.json())
-          .then(data => console.log(data)).catch(e => console.log(e))
+          .then(data => this.setInfo(data))
+          .catch(e => console.log(e))
     },
+    setInfo(data) {
+      const {item, is_playing} = data;
+      this.song = item.name;
+      this.artist = _.get(item, ['artists', 0, 'name']);
+      this.is_playing = is_playing;
+    }
   }
 }
 </script>
