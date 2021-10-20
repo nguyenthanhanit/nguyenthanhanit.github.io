@@ -13,7 +13,7 @@ export default {
       artist: ''
     }
   },
-  created: function () {
+  mounted: function () {
     this.getSongPlaying()
   },
   methods: {
