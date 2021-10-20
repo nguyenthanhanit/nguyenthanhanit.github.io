@@ -27,6 +27,7 @@ Ngoài gia đình và công ty, mình hy vọng blog này sẽ là ngôi nhà th
 
 ::: features-block Guitar và indie
 ![music](/images/hobbies/rock-music.png)
+<Spotify/>
 :::
 
 ::: features-block Du lịch
