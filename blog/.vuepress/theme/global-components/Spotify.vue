@@ -1,6 +1,6 @@
 <template>
   <div v-if="song && is_playing">
-    <i class="fab fa-spotify" :class="is_playing ? 'animate-spin' : ''"></i> {{ song }} - {{ artist }}
+    <i class="fas fa-headphones-alt animate-bounce"></i> {{ song }} - {{ artist }} <i class="fab fa-spotify" :class="is_playing ? 'animate-spin' : ''"></i>
   </div>
 </template>
 

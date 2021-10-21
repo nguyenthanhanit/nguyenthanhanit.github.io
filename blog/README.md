@@ -23,6 +23,7 @@ Ngoài gia đình và công ty, mình hy vọng blog này sẽ là ngôi nhà th
 
 ::: features-block Chạy bộ
 ![running](/images/hobbies/running.png)
+<Strava/>
 :::
 
 ::: features-block Guitar và indie
