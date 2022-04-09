@@ -9,7 +9,7 @@ Mình đã bắt đầu công việc này từ 2017 sau khi tốt nghiệp Cao �
 Ngoài gia đình và công ty, mình hy vọng blog này sẽ là ngôi nhà thứ 3, nơi mình có thể show off bản thân cũng như chia sẻ về những điều nhỏ nhặt, hay ho trong cuộc sống.
 
 :::::: features-wrap
-::: features-block Vietnam quyết thắng Covid-19
+::: features-block Đã tiêm 3 mũi
 ![ironman](/images/hobbies/iron-man.png)
 :::
 
