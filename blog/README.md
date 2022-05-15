@@ -4,7 +4,7 @@ home: true
 
 # HELLO!
 :::::: features-wrap
-::: features-block Đã tiêm 3 mũi
+::: features-block 3k
 ![ironman](/images/hobbies/iron-man.png)
 :::
 
@@ -23,7 +23,6 @@ home: true
 
 ::: features-block Guitar và indie
 ![music](/images/hobbies/rock-music.png)
-<Spotify/>
 :::
 
 ::: features-block Du lịch
