@@ -15,11 +15,8 @@ module.exports = {
         }
     },
     head: [
-        ["meta", {name: 'viewport', content: 'width=device-width'}],
-        ['script', {src: 'https://kit.fontawesome.com/5935fb99c9.js', crossorigin: 'anonymous'}],
-        ['link', {href: 'https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap', rel: 'stylesheet'}],
-        ['script', {src: 'https://www.googletagmanager.com/gtag/js?id=G-3MXKK0R9LX', async: true}],
-        ["script", {src: "/js/google-analytics.js"}],
+        ['meta', {name: 'viewport', content: 'width=device-width'}],
+        ['script', {src: '/js/font-awesome.js'}],
     ],
     plugins: [
         ['@vuepress/last-updated'],
@@ -71,7 +68,7 @@ module.exports = {
         host: {
             name: 'Nguyễn Thành An',
             title: 'Software Engineer',
-            avatar: '/images/avatar.jpeg',
+            avatar: '/images/avatar.webp',
             email: 'nguyenan8196@gmail.com',
             address: 'Ho Chi Minh City, Viet Nam',
             social: [
