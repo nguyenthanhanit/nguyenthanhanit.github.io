@@ -16,7 +16,8 @@ module.exports = {
     },
     head: [
         ['meta', {name: 'viewport', content: 'width=device-width'}],
-        ['script', {src: '/js/font-awesome.js'}],
+        ['meta', {'http-equiv': 'Cache-Control', content: 'max-age=31536000'}],
+        ['link', {href: '/fonts/fontawesome/css/all.css', rel: 'stylesheet'}],
     ],
     plugins: [
         ['@vuepress/last-updated'],
