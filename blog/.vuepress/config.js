@@ -18,6 +18,7 @@ module.exports = {
         ['meta', {name: 'viewport', content: 'width=device-width'}],
         ['meta', {'http-equiv': 'Cache-Control', content: 'max-age=31536000'}],
         ['link', {href: '/fonts/fontawesome/css/all.css', rel: 'stylesheet'}],
+        ['link', {href: 'https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap', rel: 'stylesheet'}],
     ],
     plugins: [
         ['@vuepress/last-updated'],
