@@ -16,9 +16,8 @@ home: true
 ![soccer](/images/hobbies/soccer.png)
 :::
 
-::: features-block Chạy bộ
+::: features-block <Strava/>
 ![running](/images/hobbies/running.png)
-<Strava/>
 :::
 
 ::: features-block Guitar và indie
