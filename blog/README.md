@@ -16,7 +16,7 @@ home: true
 ![soccer](/images/hobbies/soccer.png)
 :::
 
-::: features-block <Strava/>
+::: features-block Running
 ![running](/images/hobbies/running.png)
 :::
 
